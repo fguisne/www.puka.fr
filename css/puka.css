@@ -166,3 +166,36 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.panel-pricing {
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.panel-pricing > .panel-heading {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0;
+}
+
+.panel-pricing.basic > .panel-heading  {
+    background-color: blue;
+}
+
+.panel-pricing.standard > .panel-heading  {
+    background-color: red;
+}
+
+.panel-pricing.advanced > .panel-heading  {
+    background-color: green;
+}
+
+.best-offer {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: orange;
+}
+
+.price {
+    font-size: 22pt;
+}
