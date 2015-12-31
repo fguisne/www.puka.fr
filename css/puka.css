@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body,
 html {
@@ -17,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
 }
 
 .topnav {
@@ -27,7 +28,6 @@ h6 {
 
 .lead {
     font-size: 18px;
-    font-weight: 400;
 }
 
 .intro-header {
@@ -175,19 +175,25 @@ p.copyright {
 .panel-pricing > .panel-heading {
     text-transform: uppercase;
     text-align: center;
-    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel-pricing > .panel-heading > .panel-title {
+    font-size: 22pt;
+    color: #EEE;
 }
 
 .panel-pricing.basic > .panel-heading  {
-    background-color: blue;
+    background-color: #118ab2;
 }
 
 .panel-pricing.standard > .panel-heading  {
-    background-color: red;
+    background-color: #ef476f;
 }
 
 .panel-pricing.advanced > .panel-heading  {
-    background-color: green;
+    background-color: #06d6a0;
 }
 
 .best-offer {
