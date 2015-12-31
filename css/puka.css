@@ -116,6 +116,7 @@ h6 {
 }
 
 .banner {
+    margin-top: 30px;
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/7717595950_d199c4cb31_o.jpg) no-repeat center center;
@@ -198,12 +199,6 @@ p.copyright {
 
 .panel-pricing.advanced > .panel-heading  {
     background-color: #06d6a0;
-}
-
-.best-offer {
-    text-transform: uppercase;
-    text-align: center;
-    background-color: orange;
 }
 
 .price {
