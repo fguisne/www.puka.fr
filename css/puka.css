@@ -22,6 +22,10 @@ h6 {
     font-weight: normal;
 }
 
+.content-section-b h2, .content-section-a h2 {
+    margin-top: 0;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -55,7 +59,7 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h1, h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
