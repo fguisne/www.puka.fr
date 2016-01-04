@@ -27,7 +27,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 16px; 
 }
 
 .lead {
@@ -35,23 +35,19 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    color: #f8f8f8;
-    background: url(../img/14222964446_51bbbab23d_o.jpg) no-repeat center center;
-    background-size: cover;
+    padding-top: 70px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 }
 
-.intro-message {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
 
 .intro-message > h1 {
     margin: 0;
     font-size: 5em;
-}
+} 
+
+.logo-header-img {
+    display:block;
+    margin:auto;
+} 
 
 .intro-divider {
     width: 400px;
@@ -203,4 +199,9 @@ p.copyright {
 
 .price {
     font-size: 22pt;
+}
+
+.navbar-nav > li > a {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
