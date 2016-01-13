@@ -49,10 +49,6 @@ h6 {
     font-size: 18px;
 }
 
-.intro-header {
-    padding-top: 70px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-}
-
 .intro-message > h1 {
     margin: 0;
     font-size: 5em;
