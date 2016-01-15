@@ -209,3 +209,27 @@ p.copyright {
     font-size: 22pt;
 }
 
+.title {
+    width:100%; 
+    padding:10px; 
+    border-radius:5px; 
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+
+.title-blue {
+    background-color:#118AB2;
+}
+
+.title-yellow {
+    background-color:#FFD166;
+}
+
+.title-red {
+    background-color:#EF476F;
+}
+
+.title-green {
+    background-color:#06D6A0;
+}
