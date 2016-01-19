@@ -263,3 +263,22 @@ p.copyright {
 .title-big {
     font-size:200%;
 }
+
+@media (min-width: 0) {
+    [class*="col-sm"]:not(:last-child){ margin-bottom: 15px; }
+    [class*="col-md"]:not(:last-child){ margin-bottom: 15px; }
+    [class*="col-lg"]:not(:last-child){ margin-bottom: 15px; }
+}
+
+@media (min-width: @screen-sm-min) {
+    [class*="col-md"]:not(:last-child){ margin-bottom: 15px; }
+    [class*="col-lg"]:not(:last-child){ margin-bottom: 15px; }
+}
+
+@media (min-width: @screen-md-min) {
+    [class*="col-lg"]:not(:last-child){ margin-bottom: 15px; }
+ }
+ 
+.btn-exemple {
+    margin-bottom: 15px;
+}

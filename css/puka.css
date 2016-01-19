@@ -6934,11 +6934,37 @@ p.copyright {
   color: #073B4C;
   font-weight: bold;
 }
-
 .title-dark {
-    background-color:#073B4C;
+  background-color: #073B4C;
+}
+.title-big {
+  font-size: 200%;
+}
+@media (min-width: 0) {
+  [class*="col-sm"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  [class*="col-md"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  [class*="col-lg"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) {
+  [class*="col-md"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  [class*="col-lg"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 992px) {
+  [class*="col-lg"]:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
-.title-big {
-    font-size:200%;
+.btn-exemple {
+    margin-bottom: 15px;
 }
