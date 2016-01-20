@@ -13,7 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Vous pouvez également importer et exporter vos données depuis et vers les formats CSV et Excel.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.puka.fr" # the base hostname & protocol for your site
-
+host: 0.0.0.0
 
 # Build settings
 markdown: kramdown
+
