@@ -6968,3 +6968,13 @@ p.copyright {
 .btn-exemple {
     margin-bottom: 15px;
 }
+
+.puka-link {
+  background-color: #118AB2;
+  color: white !important;
+}
+
+.puka-link:hover,
+.puka-link:focus {
+    background-color: #0d6683 !important;
+}
