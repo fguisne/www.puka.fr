@@ -6964,21 +6964,19 @@ p.copyright {
     margin-bottom: 15px;
   }
 }
-
 .btn-exemple {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-
 #puka-link {
   background-color: #118AB2;
   color: white;
 }
-
 #puka-link:hover,
 #puka-link:focus {
-    background-color: #0d6683;
+  background-color: #0d6683;
 }
-
-.linkApp, .linkApp:hover, .linkApp:active {
-    color:white;
+.app-link,
+.app-link:hover,
+.app-link:active {
+  color: white;
 }
