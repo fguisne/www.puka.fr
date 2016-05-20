@@ -61,13 +61,26 @@
                             <li><a href="/exemples/ecole.html">École</a></li>
                             <li><a href="/exemples/organisme-formation.html">Organisme de formation</a></li>
                             <li><a href="/exemples/syndic.html">Syndic de copropriété</a></li>
+                            <!--<li><a href="/exemples/collectivite.html">Collectivité</a>-->
                             <li class="divider"></li>
                             <li><a href="/videos.html">Vidéos de présentation</a></li>
                         </ul>
                     </li>
                     <li><a href="/solution.html">Solution</a></li>
                     <li><a href="/offres.html">Offres</a></li>
-                    <li><a href="/about.html">Qui sommes-nous ?</a></li>
+                    <!--<li><a href="/about.html">Qui sommes-nous ?</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Qui sommes-nous ? <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/history.html">Notre histoire</a></li>
+                            <li><a href="/raison.html">Notre raison d'être</a></li>
+                            <li><a href="/about.html">L'équipe</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/contact.html">Nous contacter</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/blog.html">Le blog</a></li>
                     <li><a id="puka-link" href="http://app.puka.fr">Accéder à l'application</a></li>
                 </ul>
@@ -96,15 +109,31 @@
 
     <!-- Footer -->
     <footer>
+    <hr/>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <p class="text-muted small">puka - tous droits réservés</p>
-                <p class="text-muted small">
-                    <a href="/mentions-legales.html">Mentions légales</a>
+            <div class="col-sm-4">
+                <p class="text-muted text-center small">
+                    <a href="/mentions-legales.html">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        &nbsp;Mentions légales
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img alt="puka" src="/img/logo_small.png" height="25px"/>
+                <p class="text-muted small"> Tous droits réservés</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-muted text-center small">
+                    <a href="/contact.html">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        &nbsp;Contact
+                    </a>
                 </p>
             </div>
         </div>
+        <hr/>
         <div class="row">
             <div class="col-lg-12">
                 <p class="text-muted small">
@@ -114,6 +143,7 @@
             </div>
         </div>
     </div>
+    
 </footer>
 
     <!-- jQuery -->
